@@ -29,3 +29,25 @@ let masjuscule=identity.toUpperCase();
 console.log(identity);
 console.log(masjuscule);
 //j'ai enregistrer identity en maj dans majusucle car je ne peux pas modifier une constante 
+age=prompt("quel age avez vous");
+
+    if (age <=0){
+        console.log("vous etes un poisson (pané)")
+    } 
+    if (age <=120){
+        console.log("votre âge est validé");
+    } 
+    if (age <0 || age >120) {
+        console.log("je ne suis pas d'accord");
+    }
+    if (age >=21) {
+        console.log("vous etes majeur");
+    }
+    if (age <21 || age >=18) {
+        console.log("vous etes majeur mais pas au usa");
+    } 
+    if (age <18) {
+        console.log("vous etes mineur");
+    }
+// les 3 operateur boolean sont > < = 
+    
