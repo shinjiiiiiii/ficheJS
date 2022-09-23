@@ -50,4 +50,39 @@ age=prompt("quel age avez vous");
         console.log("vous etes mineur");
     }
 // les 3 operateur boolean sont > < = 
-    
+
+function direBonjour(){
+    console.log("Bonjour");
+}
+direBonjour();
+
+let name=prenom 
+function direBonjourAkelkain(name) { 
+    console.log("bonjour "+name);
+}
+direBonjourAkelkain(name)
+
+
+
+function hello(name,city) {
+    console.log("bonjour "+name +" vous habitez "+city );
+} hello(name,city=("lyon"));
+
+
+function add(a,b) {
+    console.log(a+b);
+    return a+b;
+}
+add(3,4);
+
+function div(a,b){
+    console.log(a+b);
+    return a+b;
+} div(1,2);
+
+function positive(num){
+    return (num>0); 
+} 
+console.log(positive(34));
+
+ 
