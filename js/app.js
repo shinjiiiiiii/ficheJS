@@ -154,3 +154,21 @@ do {
    id++;
 } while(id > 100);
 //je remaque que c'est la meme chose qu'avec keys mais avec do while 
+
+let ages = [14,14,14,15,14,15,16,16,16,16,16,17]; 
+
+console.log(ages);
+console.log(ages[0]);
+console.log(ages[1]);
+console.log(ages[2]);
+console.log(ages[3]);
+
+let longueur = ages.length 
+console.log(longueur)
+//la longueur du tableau est egale au dernier index - 1
+console.log(ages[11])
+let ix= 0 ;
+while(ix<=ages.length-1) {
+    console.log(ages[ix]);
+    ix++ ;
+}
