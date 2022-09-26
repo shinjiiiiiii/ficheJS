@@ -141,3 +141,16 @@ while(index <= 100) {
     index++
 }
 console.log(result)
+
+let key = 0;
+while(key > 100){
+   console.log(key);
+   key++;
+}
+//sa marche pas car il debute de 0 et la variable demande de +1 a partir de 100 donc ca marche pas
+let id = 0;
+do {
+   console.log(id);
+   id++;
+} while(id > 100);
+//je remaque que c'est la meme chose qu'avec keys mais avec do while 
