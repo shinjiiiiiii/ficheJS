@@ -76,13 +76,38 @@ function add(a,b) {
 add(3,4);
 
 function div(a,b){
-    console.log(a+b);
-    return a+b;
-} div(1,2);
+    return a/b;
+} div 
+
 
 function positive(num){
     return (num>0); 
 } 
 console.log(positive(34));
 
- 
+age=parseInt(age); 
+
+let VERIFIER_NOM;
+
+VERIFIER_NOM = isNaN(age);
+
+console.log(age);
+console.log(VERIFIER_NOM);
+
+function isValid(userInput) {
+    if (!isNaN(parseInt(userInput))){
+        userInput = parseInt(userInput)
+        if (userInput >12 && userInput <90) return true
+        else return false
+    }
+    else return false 
+}
+
+console.log(isValid("99"));
+
+let resultat =isValid(age); 
+
+let resultatInverse = !resultat ; 
+
+console.log(!resultat)
+console.log(resultatInverse)
